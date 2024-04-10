@@ -1,0 +1,11 @@
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+      app: my-app
+spec:
+  containers:
+    - name: my-cont1
+      image: nginx
+      ports:
+        - containerPort: 80
